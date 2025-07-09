@@ -79,17 +79,7 @@ yarn start:dev
 
 
 Application is running on: http://localhost:3000
-接口说明
-```bash
-/test 资源的自动 CRUD 接口
-方法	路径	说明
-GET	/test	获取所有数据（支持分页、过滤、排序）
-GET	/test/:id	根据 ID 获取单条数据
-POST	/test	创建新数据
-PUT	/test/:id	全量更新指定 ID 的数据
-PATCH	/test/:id	部分更新指定 ID 的数据
-DELETE	/test/:id	删除指定 ID 的数据
-```
+
 
 Swagger 文档
 访问 http://localhost:3000/api-docs 查看接口文档。
