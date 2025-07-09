@@ -49,11 +49,6 @@ yarn install
 
 执行：
 
-
-```bash
-
-```
-
 ```bash
 chmod +x setup.sh
 
