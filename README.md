@@ -39,6 +39,7 @@
 npm install
 # 或者
 yarn install
+```
 
 
 ## 初始化数据库（必做）
@@ -49,23 +50,36 @@ yarn install
 执行：
 
 
-bash setup.sh
+```bash
+
+```
+
+```bash
+chmod +x setup.sh
+
+./setup.sh
+```
 确保数据库已创建且用户权限正确，否则项目无法连接数据库。
 
 配置环境变量
 在项目根目录创建 .env 文件，填写数据库连接信息：
 
-
+```bash
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=common
 DB_PASS=secure_password
 DB_NAME=common_test
+```
 运行项目
 
+```bash
 npm run start:dev
+
 # 或者
 yarn start:dev
+
+```
 启动后，控制台输出：
 
 csharp
